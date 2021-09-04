@@ -1,8 +1,10 @@
 package io.htmlchannel.utils.nbt;
 
+import io.htmlchannel.utils.header.Reference;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.util.math.BlockPos;
 
+@Reference("io.htmlchannel.utils.BlockPosCompound")
 public class BlockPosCompound {
 
     private final BlockPos pos;
